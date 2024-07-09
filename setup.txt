@@ -20,3 +20,15 @@
   "start": "npx ts-node src/server.ts",
   "dev": "npx nodemon"
   ```
+
+7. npm install prisma -D
+
+8. npx prisma init
+
+9. update the DATABASE_URL
+
+10. define a schema
+
+11. npx prisma migrate dev --name <migration_name>
+
+12. npx prisma studio // to visualize
